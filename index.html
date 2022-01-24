@@ -17,7 +17,7 @@
         <input type="text" name="surname" id="surname" required><br />
     
 
-        <label for="email">email:</label><br />
+        <label class="link" for="email">email:</label><br />
         <input type="text" name="email" id="email" required><br />
         <label for="number">Numer telefonu:</label><br />
         <input type="text" name="number" id="number" required><br />
@@ -28,17 +28,15 @@
             <option value="Gdańsk">Gdańsk</option>
         </select><br>
 
-        <input type="checkbox" name="agreement">Wybierz płeć<br>
-        <input type="radio" name="gender">Mężczyzna<br>
-        <input type="radio" name="gender">Kobieta<br>
+        <p>Wybierz płeć</p>
+        <input type="radio" name="gender">
+        <label for="male" id="male">Mężczyzna</label><br>
+        <input type="radio" name="gender">
+        <label for="famale" id="famale">Kobieta</label><br>
 
 
         <input type="checkbox" name="agreement">Wyrażam zgodę na przetwarzanie danych<br>
-        <input type="radio" name="choise">Tak<br>
-        <input type="radio" name="choise">Nie<br>
         
-
-
         <textarea name="message" maxlength="100"></textarea> <br>
 
         <input type="submit" value="Wyślij" >
